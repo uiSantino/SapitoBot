@@ -1,14 +1,20 @@
 let handler = async (m, { conn, groupMetadata }) => { 
-
- let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(m.chat)
- conn.reply(m.chat, `\n${mssg.linkGp} *${groupMetadata.subject}*\n\n${link}`, m, {detectLink: true})
-//conn.sendHydrated(m.chat, `\n${mssg.linkGp} *${groupMetadata.subject}*\n\n${link}`, packname, null, 'https://www.whatsapp.com/otp/copy/https://chat.whatsapp.com/' + await conn.groupInviteCode(m.chat), 'Copiar', null, null, [ null ], m)
-
+    // Obtiene el código de invitación del grupo
+    let inviteCode = await conn.groupInviteCode(m.chat);
+    let groupLink = `https://chat.whatsapp.com/${inviteCode}`;
+    
+    // Mensaje de respuesta
+    let responseMessage = `\n*Invitación al grupo: ${groupMetadata.subject}*\n\n${groupLink}`;
+    
+    // Envía la respuesta al grupo
+    conn.reply(m.chat, responseMessage, m, { detectLink: true });
 }
-handler.help = ['link']
-handler.tags = ['grupo']
-handler.command = ['linkgroup', 'link'] 
-handler.group = true
-handler.botAdmin = true
 
-export default handler
+// Configuración del handler
+handler.help = ['link', 'enlace'];  // Múltiples comandos para mayor versatilidad
+handler.tags = ['grupo'];
+handler.command = ['linkgroup', 'link', 'enlacegrupo']; // Comandos más diversos
+handler.group = true; // Solo se permite en grupos
+handler.botAdmin = true; // El bot debe ser admin
+
+export default handler;
