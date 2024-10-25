@@ -19,7 +19,7 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
-'menuaudios': '𝐀𝐔𝐃𝐈𝐎𝐒',
+'audios': '𝐀𝐔𝐃𝐈𝐎𝐒',
 }
 let img = 'https://iili.io/dsS9lja.md.png'
 

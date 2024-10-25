@@ -27,7 +27,7 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
-'menuanime': 'ᴍᴇɴᴜ ᴀɴɪᴍᴇ',
+'anime': 'ᴍᴇɴᴜ ᴀɴɪᴍᴇ',
 }
 let img = 'https://iili.io/dsSHQRt.md.png'
 
