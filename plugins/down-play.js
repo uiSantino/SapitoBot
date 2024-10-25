@@ -28,7 +28,7 @@ let buscador = `•═══• ❮ 🎬 • \`Play YT\` • 🎧 ❯ •══�
 ], null, null, m)}
 handler.help = ['play1' 'play2']
 handler.tags = ['descargas']
-handler.command = ['play1', 'play2']
+handler.command = ['play', 'play2']
 handler.register = true
 handler.disabled = false
 export default handler
