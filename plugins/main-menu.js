@@ -50,7 +50,7 @@ const defaultMenu = {
 ❦🛡 *𝕹𝖎𝖛𝖊𝖑:* %level
 ❦💫 *𝕽𝖆𝖓𝖌𝖔:* %role
 
-\t*【𝕷 𝖎 𝖘 𝖙 𝖆 - 𝕯𝖊 - 𝕮 𝖔 𝖒 𝖆 𝖓 𝖉 𝖔 𝖘】* 
+\t*【𝕷 𝖎 𝖘 𝖙 𝖆 - 𝕯𝖊 - 𝕮 𝖔 𝖒 𝖆 𝖓 𝖉 𝖔 𝖘】*  
 `.trimStart(),
       header: '「 %category 」\n',
   body: '❦ %cmd\n',
@@ -152,10 +152,6 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
-
   let category = "video"
   const db = './src/database/db.json'
   const db_ = JSON.parse(fs.readFileSync(db))
@@ -166,13 +162,9 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const gif = await response.buffer()
  // const img = imagen1
 
-/*await conn.reply(m.chat, '╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹*\n├ ⚘݄𖠵⃕⁖𖥔.𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎,  ꪶꪾ❍̵̤̂̂ꫂ\n├𝐀𝐆𝐔𝐀𝐑𝐃𝐄 𝐔𝐍 𝐌𝐎𝐌𝐄𝐍𝐓𝐎❞\n╰ׁ̻─ׅׄ─۪۬─۟─۪─۟─۪۬─۟─۪─۟─۪۬─۟─۪─۟┄۪۬┄۟┄۪┈۟┈۪', m, { contextInfo:{ forwardingScore: 2024, isForwarded: true, externalAdReply: {title: namechannel, body: dev, sourceUrl: channel, thumbnail: icons }}})*/
-
-// await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
+//await conn.reply(m.chat, '╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹*\n├ ⚘݄𖠵⃕⁖𖥔.𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎,  ꪶꪾ❍̵̤̂̂ꫂ\n├𝐀𝐆𝐔𝐀𝐑𝐃𝐄 𝐔𝐍 𝐌𝐎𝐌𝐄𝐍𝐓𝐎❞\n╰ׁ̻─ׅׄ─۪۬─۟─۪─۟─۪۬─۟─۪─۟─۪۬─۟─۪─۟┄۪۬┄۟┄۪┈۟┈۪', m, { contextInfo:{ forwardingScore: 2024, isForwarded: true, externalAdReply: {title: namechannel, body: dev, sourceUrl: channel, thumbnail: icons }}})//
 
 await m.react('🌹') 
-
-//await conn.sendFile(m.chat, imagen1, 'yaemori.jpg', text.trim(), fkontak, null, rcanal)
 
 await conn.sendMessage(
   m.chat,
@@ -189,7 +181,7 @@ await conn.sendMessage(
     externalAdReply: {
       title: '♡⃝𝒴𝓊𝓀𝒾_𝒮𝓊𝑜𝓊-𝐵𝑜𝓉ᚐ҉ᚐ',
       body: dev,
-      thumbnailUrl: icono,
+      thumbnailUrl: fotoperfil,
       sourceUrl: redes,
       mediaType: 1,
       renderLargerThumbnail: false,
