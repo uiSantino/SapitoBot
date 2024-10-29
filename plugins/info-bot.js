@@ -50,8 +50,8 @@ if (/^Como puedo tener bot|Quiero un bot/i.test(m.text)) {
 conn.reply(m.chat, `*¡Contacta Al Creador!*
 > *wa.me/584120346669*`, m, rcanal, )
 }
-if (/^Bot en decadencia|En decadencia|Decadencia/i.test(m.text)) {
-conn.reply(m.chat, `*Calla 🍆🥵*`, m, rcanal, )
+if (/^portgas|haruto|ernard/i.test(m.text)) {
+conn.reply(m.chat, `*Portgas es tan gay que se esconde del payaso que se esconde de los gays, y su tío le da Fuertemente por las noches*`, m, rcanal, )
 }
 if (/^pene$/i.test(m.text)) {
 conn.reply(m.chat, `*comes* 😹`, m, rcanal, )
