@@ -29,8 +29,8 @@ conn.reply(m.chat, `*Hola Eres Fan De* *𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁�
 if (/^ana|cristina|Ana Cristina/i.test(m.text)) { 
 conn.reply(m.chat, `*Si La conozco, Ella es la futura esposa de mi creador*`, m, rcanal, )
 }
-if (/^Bot de mrd/i.test(m.text)) {
-conn.reply(m.chat, `*Ya te dieron De Comer?🥵🍆*`, m, rcanal, )
+if (/^jean|carlos|jean carlos/i.test(m.text)) {
+conn.reply(m.chat, `*ese men solo piensa en pura vrg quiere que armadillo lo folle sin parar🥵🍆*`, m, rcanal, )
 }
 if (/^Bot de mierda/i.test(m.text)) {
 conn.reply(m.chat, `*No digas mamadas, Meriyein*`, m, rcanal, )
