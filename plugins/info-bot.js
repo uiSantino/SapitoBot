@@ -11,8 +11,8 @@ conn.reply(m.chat, `🌹 ¡Hola! Soy 𝒴𝓊𝓀𝒾_𝒮𝓊𝑜𝓊-𝐵𝑜�
 if (/^niño|piña|Niño Piña$/i.test(m.text)) {
 conn.reply(m.chat, `*Niño Piña 🍍 es la perrita de mi creador* 🥵🥵`, m, rcanal, )
 }
-if (/^sexo$/i.test(m.text)) {
-conn.reply(m.chat, `*pervertido* 🫣`, m, rcanal, )
+if (/^armadillo$/i.test(m.text)) {
+conn.reply(m.chat, `Armadilo es un furraso de verga que le gustan las mujeres con pitos* 🫣`, m, rcanal, )
 }
 if (/^a$/i.test(m.text)) {
 conn.reply(m.chat, `*rroz y pollo* 😄👌`, m, rcanal, )
