@@ -35,16 +35,16 @@ conn.reply(m.chat, `*ese men solo piensa en pura vrg quiere que armadillo lo fol
 if (/^metsy|luis/i.test(m.text)) {
 conn.reply(m.chat, `*luis solo quiere que lo coja su mejor amigo quiere hacer anales con el haunter que es otro gay más*`, m, rcanal, )
 }
-if (/^English|inglés$/i.test(m.text)) {
-conn.reply(m.chat, `*The first one to speak is gay*`, m, rcanal, )
+if (/^haunter|inglés$/i.test(m.text)) {
+conn.reply(m.chat, `*Haunter le mete un dildo en el culo todas las noches a metsy, también le gusta las orgias de negros donde el es la puta*`, m, rcanal, )
 }
 if (!chat.isBanned && m.text.match(/(te amo|teamo|te amo bot|te amo megumin)/gi)) {
   conn.sendMessage(m.chat, {
  stiker:{ url: global.stickeramor}
 }, { quoted: fakegif2});
 }
-if (/^bug$/i.test(m.text)) {
-conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
+if (/^hugo$/i.test(m.text)) {
+conn.reply(m.chat, `*el es la putita privada de mi creador se lo mamá 3 veces seguidas en 5 minutos* 😹`, m, rcanal, )
 }
 if (/^Como puedo tener bot|Quiero un bot/i.test(m.text)) {
 conn.reply(m.chat, `*¡Contacta Al Creador!*
