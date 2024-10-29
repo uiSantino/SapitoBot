@@ -51,7 +51,7 @@ conn.reply(m.chat, `*¡Contacta Al Creador!*
 > *wa.me/584120346669*`, m, rcanal, )
 }
 if (/^portgas|haruto|ernard/i.test(m.text)) {
-conn.reply(m.chat, `*Portgas es tan gay que se esconde del payaso que se esconde de los gays, y su tío le da Fuertemente por las noches*`, m, rcanal, )
+conn.reply(m.chat, `*Portgas hace el jutsu clones de sombras y se lo cogen sus multicuentas*`, m, rcanal, )
 }
 if (/^pene$/i.test(m.text)) {
 conn.reply(m.chat, `*comes* 😹`, m, rcanal, )
