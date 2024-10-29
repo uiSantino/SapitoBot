@@ -32,8 +32,8 @@ conn.reply(m.chat, `*Si La conozco, Ella es la futura esposa de mi creador*`, m,
 if (/^jean|carlos|jean carlos/i.test(m.text)) {
 conn.reply(m.chat, `*ese men solo piensa en pura vrg quiere que armadillo lo folle sin parar🥵🍆*`, m, rcanal, )
 }
-if (/^Bot de mierda/i.test(m.text)) {
-conn.reply(m.chat, `*No digas mamadas, Meriyein*`, m, rcanal, )
+if (/^metsy|luis/i.test(m.text)) {
+conn.reply(m.chat, `*luis solo quiere que lo coja su mejor amigo quiere hacer anales con el haunter que es otro gay más*`, m, rcanal, )
 }
 if (/^English|inglés$/i.test(m.text)) {
 conn.reply(m.chat, `*The first one to speak is gay*`, m, rcanal, )
