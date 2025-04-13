@@ -8,7 +8,7 @@ let handler = async (m, { conn, args }) => {
     let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length
     
     let txt = `
-Hola! Soy  *${botname}*  ٩(˘◡˘)۶
+Hola!@${userId.split('@')[0]}  Soy  *${botname}*  ٩(˘◡˘)۶
 Aquí tienes la lista de comandos
 ╭┈ ↷
 │ᰔᩚ Cliente » @${userId.split('@')[0]}
@@ -23,45 +23,45 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 
 • :･ﾟ⊹˚• \`『 Info-Bot 』\` •˚⊹:･ﾟ•
 
-❍ Comandos para ver estado e información de la Bot.
+❍ Comandos para ver estado e información del Bot.
 ᰔᩚ *#help • #menu*
-> ✦ Ver la lista de comandos de la Bot.
+> ✦ Ver la lista de comandos del Bot.
 ᰔᩚ *#uptime • #runtime*
-> ✦ Ver tiempo activo o en linea de la Bot.
+> ✦ Ver tiempo activo o en linea del Bot.
 ᰔᩚ *#sc • #script*
-> ✦ Link del repositorio oficial de la Bot
+> ✦ Link del repositorio oficial del Bot
 ᰔᩚ *#staff • #colaboradores*
-> ✦ Ver la lista de desarrolladores de la Bot.
+> ✦ Ver la lista de desarrolladores del Bot.
 ᰔᩚ *#serbot • #serbot code*
 > ✦ Crea una sesión de Sub-Bot.
 ᰔᩚ *#bots • #sockets*
 > ✦ Ver la lista de Sub-Bots activos.
 ᰔᩚ *#creador*
-> ✦ Contacto del creador de la Bot.
+> ✦ Contacto del creador del Bot.
 ᰔᩚ *#status • #estado*
-> ✦ Ver el estado actual de la Bot.
+> ✦ Ver el estado actual del Bot.
 ᰔᩚ *#links • #grupos*
-> ✦ Ver los enlaces oficiales de la Bot.
+> ✦ Ver los enlaces oficiales del Bot.
 ᰔᩚ *#infobot • #infobot*
-> ✦ Ver la información completa de la Bot.
+> ✦ Ver la información completa del Bot.
 ᰔᩚ *#sug • #newcommand*
 > ✦ Sugiere un nuevo comando.
 ᰔᩚ *#p • #ping*
 > ✦ Ver la velocidad de respuesta del Bot.
 ᰔᩚ *#reporte • #reportar*
-> ✦ Reporta alguna falla o problema de la Bot.
+> ✦ Reporta alguna falla o problema del Bot.
 ᰔᩚ *#sistema • #system*
 > ✦ Ver estado del sistema de alojamiento.
 ᰔᩚ *#speed • #speedtest*
-> ✦ Ver las estadísticas de velocidad de la Bot.
+> ✦ Ver las estadísticas de velocidad del Bot.
 ᰔᩚ *#views • #usuarios*
 > ✦ Ver la cantidad de usuarios registrados en el sistema.
 ᰔᩚ *#funciones • #totalfunciones*
-> ✦ Ver todas las funciones de la Bot.
+> ✦ Ver todas las funciones del Bot.
 ᰔᩚ *#ds • #fixmsgespera*
 > ✦ Eliminar archivos de sesión innecesarios.
 ᰔᩚ *#editautoresponder*
-> ✦ Configurar un Prompt personalizado de la Bot.
+> ✦ Configurar un Prompt personalizado del Bot.
 
 • :･ﾟ⊹˚• \`『 Buscadores 』\` •˚⊹:･ﾟ•
 
@@ -537,13 +537,13 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 ᰔᩚ *#nombreninja*
 > ✦ Busca un nombre ninja aleatorio. 
 ᰔᩚ *#paja • #pajeame* 
-> ✦ La bot te hace una paja.
+> ✦ Sapito te hace una paja.
 ᰔᩚ *#personalidad* + <mencion>
-> ✦ La bot busca tu personalidad. 
+> ✦ Sapito busca tu personalidad. 
 ᰔᩚ *#piropo*
 > ✦ Lanza un piropo.
 ᰔᩚ *#pregunta*
-> ✦ Hazle una pregunta a la bot.
+> ✦ Hazle una pregunta a sapito.
 ᰔᩚ *#ship • #pareja*
 > ✦ La bot te da la probabilidad de enamorarte de una persona. 
 ᰔᩚ *#sorteo*
@@ -553,13 +553,13 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 ᰔᩚ *#formartrio* + <mencion>
 > ✦ Forma un trio.
 ᰔᩚ *#ahorcado*
-> ✦ Diviertete con la bot jugando el juego ahorcado.
+> ✦ Diviertete con sapito jugando el juego ahorcado.
 ᰔᩚ *#genio*
 > ✦ Comienza una pregunta con el genio.
 ᰔᩚ *#mates • #matematicas*
 > ✦ Responde las preguntas de matemáticas para ganar recompensas.
 ᰔᩚ *#ppt*
-> ✦ Juega piedra papel o tijeras con la bot.
+> ✦ Juega piedra papel o tijeras con sapito.
 ᰔᩚ *#sopa • #buscarpalabra*
 > ✦ Juega el famoso juego de sopa de letras.
 ᰔᩚ *#pvp • #suit* + <mencion>
