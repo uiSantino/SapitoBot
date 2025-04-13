@@ -49,7 +49,7 @@ global.packname = '⪛✰ Sapito Bot ✰⪜'
 global.botname = 'SapitoBot'
 global.wm = 'ৎ୭࠭͢𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁𝐨𝐭ⷭ𓆪͟͞ '
 global.author = 'Made By Santino'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Santino'
 global.textbot = 'Sapito Bot • Powered By Santino'
 global.etiqueta = 'Santi'
 
