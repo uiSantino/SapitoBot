@@ -15,12 +15,12 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (user.registered === true) return m.reply(`『✦』Ya estás registrado.\n\n*¿Quiere volver a registrarse?*\n\nUse este comando para eliminar su registro.\n*${usedPrefix}unreg*`)
   if (!Reg.test(text)) return m.reply(`『✦』Formato incorrecto.\n\nUso del comamdo: *${usedPrefix + command} nombre.edad*\nEjemplo : *${usedPrefix + command} ${name2}.18*`)
   let [_, name, splitter, age] = text.match(Reg)
-  if (!name) return m.reply(`『✦』El nombre no puede estar vacío.`)
-  if (!age) return m.reply(`『✦』La edad no puede estar vacía.`)
+  if (!name) return m.reply(`『✦』Acordate de poner el nombre, no se puede quedar vacio.`)
+  if (!age) return m.reply(`『✦』Te falto poner la edad.`)
   if (name.length >= 100) return m.reply(`『✦』El nombre es demasiado largo.`)
   age = parseInt(age)
-  if (age > 1000) return m.reply(`『✦』Wow el abuelo quiere jugar al bot.`)
-  if (age < 5) return m.reply(`『✦』hay un abuelo bebé jsjsj.`)
+  if (age > 1000) return m.reply(`『✦』Que haces abuelo ni en pedo tenes esa edad.`)
+  if (age < 5) return m.reply(`『✦』Bueno bueno tenemos a un bebe aqui jsjsj.`)
   user.name = name + '✓'.trim()
   user.age = age
   user.regTime = + new Date      
@@ -35,7 +35,7 @@ regbot += `> ᰔᩚ Nombre » ${name}\n`
 regbot += `> ✎ Edad » ${age} años\n`
 regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
 regbot += `❀ 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:\n`
-regbot += `> • ⛁ *${moneda}* » 40\n`
+regbot += `> • ⛁ *${moneda}* » 100\n`
 regbot += `> • ✰ *Experiencia* » 300\n`
 regbot += `> • ❖ *Tokens* » 20\n`
 regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
