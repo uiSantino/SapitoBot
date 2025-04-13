@@ -69,7 +69,7 @@ global.channel = 'https://whatsapp.com/channel/0029VaEOWX48kyyyW3QO0hj2l'
 global.channel2 = 'https://whatsapp.com/channel/0029VaEOWX48kyyyW3QO0hj2l'
 global.md = 'https://github.com/uiSantino/SapitoBot'
 global.correo = 'sapitocenter@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T';
+global.cn ='https://whatsapp.com/channel/0029VaEOWX48kyyyW3QO0hj2l';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
