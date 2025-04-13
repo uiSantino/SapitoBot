@@ -1,7 +1,7 @@
 import { exec } from 'child_process';
 
 let handler = async (m, { conn }) => {
-  m.reply(`${emoji2} Actualizando el bot...`);
+  m.reply(`${emoji2} Sapito se esta actualizando...`);
 
   exec('git pull', (err, stdout, stderr) => {
     if (err) {
@@ -14,7 +14,7 @@ let handler = async (m, { conn }) => {
     }
 
     if (stdout.includes('Already up to date.')) {
-      conn.reply(m.chat, `${emoji4} El bot ya está actualizado.`, m);
+      conn.reply(m.chat, `${emoji4} NADA QUE HACER.`, m);
     } else {
       conn.reply(m.chat, `${emoji} Actualización realizada con éxito.\n\n${stdout}`, m);
     }
