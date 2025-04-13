@@ -114,7 +114,7 @@ npm start
 </details>
 
 <details>
-<summary><b> ✰ Contáctos</b></summary>
+✰ Contáctos
 
 * WhatsApp: [`Aquí`](https:/Wa.me/595994110242)
 * ¿Tienes Dudas, consultas o quejas? escribenos a este correo: [`Aquí`](sapitocenter@gmail.com)
