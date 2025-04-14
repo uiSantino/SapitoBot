@@ -127,12 +127,12 @@ npm start
 ---
 
 ### **`❀ Colaboradores`**
-<a href="https://github.com/The-King-Destroy/Yuki_Suou-Bot/graphs/contributors">
+<a href="https://github.com/uiSantino/SapitoBot/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=The-King-Destroy/Yuki_Suou-Bot" /> 
 </a>
 
 ### **`ᥫ᭡ Propietario`**
-<a
+
 
 ### **`🜸 Créditos`**
 
