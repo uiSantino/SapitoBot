@@ -102,6 +102,7 @@ const roles = {
 '*Deidad de la Eternidad II*': 4000,
 '*Deidad de la Eternidad I*': 5000,
 '*Gran Monarca de las Sombras*': 10000,
+'*THE BOSS*': 20000,
 }
 
 let handler = m => m
