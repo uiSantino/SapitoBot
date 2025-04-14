@@ -32,7 +32,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 handler.help = ['botinfo']
 handler.tags = ['info']
-handler.command = ['info', 'botinfo', 'infobot']
+handler.command = ['info', 'on?', 'infobot']
 
 export default handler
 
