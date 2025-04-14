@@ -10,7 +10,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
     const search = await yts(text)
     if (!search.all || search.all.length === 0) {
-      return m.reply('✧ No se encontraron resultados para tu búsqueda.')
+      return m.reply('✧ No encontre resultados para tu busqueda jaaaa ni lo busque.')
     }
 
     const videoInfo = search.all[0]
