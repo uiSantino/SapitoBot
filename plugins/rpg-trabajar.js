@@ -46,7 +46,7 @@ return list[Math.floor(list.length * Math.random())];
 
 // Thanks to FG98
 const trabajo = [
-   "Trabajas como cortador de galletas y ganas",
+   "Trabajas como prostituta y ganas",
    "Trabaja para una empresa militar privada, ganando",
    "Organiza un evento de cata de vinos y obtienes",
    "Limpias la chimenea y encuentras",
@@ -60,7 +60,7 @@ const trabajo = [
    "Trabajas como escritor(a) de galletas de la fortuna y ganas",
    "Revisas tu bolso y decides vender algunos artículos inútiles que no necesitas. Resulta que toda esa basura valía",
    "Desarrollas juegos para ganarte la vida y ganas",
-   "Trabajas todo el día en la empresa por",
+   "Te contrataron para limpiar un baño publico, te dieron",
    "Diseñaste un logo para una empresa por",
    "¡Trabajó lo mejor que pudo en una imprenta que estaba contratando y ganó su bien merecido!",
    "Trabajas como podador de arbustos y ganas",
@@ -70,13 +70,13 @@ const trabajo = [
    "Trabajas como artista callejera y ganas",
    "¡Hiciste trabajo social por una buena causa! por tu buena causa Recibiste",
    "Reparaste un tanque T-60 averiado en Afganistán. La tripulación te pagó",
-   "Trabajas como ecologista de anguilas y ganas",
+   "Trabajas como guardia de seguridad de supermercado y ganas",
    "Trabajas en Disneyland como un panda disfrazado y ganas",
    "Reparas las máquinas recreativas y recibes",
    "Hiciste algunos trabajos ocasionales en la ciudad y ganaste",
    "Limpias un poco de moho tóxico de la ventilación y ganas",
    "Resolviste el misterio del brote de cólera y el gobierno te recompensó con una suma de",
    "Trabajas como zoólogo y ganas",
-   "Vendiste sándwiches de pescado y obtuviste",
+   "Vendiste chicles en el semaforo y ganaste",
    "Reparas las máquinas recreativas y recibes",
 ] 
